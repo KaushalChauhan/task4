@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Roboto,sans-serif;
+}
+body{
+    background-color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container .leftside{
+    position: relative;
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+    box-shadow:  10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+
+}
+.container .rightside{
+   margin-top: 10px;
+    position: relative;
+    background: white !important;
+    padding: 10px;
+    box-shadow:  10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.profileImg{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+	align-items: flex-end;
+	max-width: 100%;
+    
+	color: black;
+	padding-left: 8px;
+}
+.profileImg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileTxt {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 15px;
+    color: green;
+}
+.contactInfo ul li span{
+    color:rgb(128, 128, 128);
+    font-weight: 300;
+}
+.skills .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 15px;
+    color: green;
+}
+.skillsbar .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skillsbar .box h4{
+    color: black;
+    font-weight: 500;
+}
+.skillsbar .box h4 .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+}
+.skillsbar li{
+    list-style: none;
+}
+.skillsbar .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(192, 189, 189);
+    display: block;
+    margin-top: 10px 0 8px 0;
+    border-radius: 8px;
+}
+.skillsbar .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: green;
+    border-radius: 8px;
+
+}
+.skillsbar ul{
+    margin-top: 10px;
+    text-align: left;
+}
+.skillsbar li .text{
+    margin-top: 4px;
+}
+.education {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    margin-top: 5px;
+	
+}
+.container-footer{
+	background-color: green;
+	color:  white;
+	grid-area: footer;
+	text-align: center;
+    padding: 15px 0 15px 0;
+    margin: 0 35px 0 35px;
+
+}
+.container-footer div{
+    font-size: 15px;
+}
+.container-eduacation{
+    position: relative;
+    margin: 10px 0 10px 0;
+    background: white;
+    padding: 10px;
+    box-shadow:  10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
